@@ -13,6 +13,7 @@
 		EC359C682F9291F9009A450F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC359C672F9291F9009A450F /* Preview Assets.xcassets */; };
 		EC359C732F9291F9009A450F /* ArtTraceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC359C722F9291F9009A450F /* ArtTraceTests.swift */; };
 		EC359C7E2F9291F9009A450F /* ArtTraceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC359C7D2F9291F9009A450F /* ArtTraceUITests.swift */; };
+		EC359C8C2F9293B1009A450F /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC359C8B2F9293B1009A450F /* ImagePicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		EC359C792F9291F9009A450F /* ArtTraceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArtTraceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC359C7D2F9291F9009A450F /* ArtTraceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtTraceUITests.swift; sourceTree = "<group>"; };
 		EC359C7F2F9291F9009A450F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC359C8B2F9293B1009A450F /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 			children = (
 				EC359C602F9291F6009A450F /* ArtTraceApp.swift */,
 				EC359C622F9291F6009A450F /* ContentView.swift */,
+				EC359C8B2F9293B1009A450F /* ImagePicker.swift */,
 				EC359C642F9291F9009A450F /* Assets.xcassets */,
 				EC359C692F9291F9009A450F /* Info.plist */,
 				EC359C662F9291F9009A450F /* Preview Content */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC359C8C2F9293B1009A450F /* ImagePicker.swift in Sources */,
 				EC359C632F9291F6009A450F /* ContentView.swift in Sources */,
 				EC359C612F9291F6009A450F /* ArtTraceApp.swift in Sources */,
 			);
@@ -419,6 +423,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"ArtTrace/Preview Content\"";
+				DEVELOPMENT_TEAM = ZCVBNTZYS7;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = ArtTrace/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -440,6 +445,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"ArtTrace/Preview Content\"";
+				DEVELOPMENT_TEAM = ZCVBNTZYS7;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = ArtTrace/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
